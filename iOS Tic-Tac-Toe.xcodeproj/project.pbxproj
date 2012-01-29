@@ -7,14 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		87C099F214D4FA2E00B2B23D /* TTTBoard.m in Sources */ = {isa = PBXBuildFile; fileRef = 87C099F114D4FA2E00B2B23D /* TTTBoard.m */; };
+		87C099F314D4FA2E00B2B23D /* TTTBoard.m in Sources */ = {isa = PBXBuildFile; fileRef = 87C099F114D4FA2E00B2B23D /* TTTBoard.m */; };
+		87C099F614D4FA4F00B2B23D /* TTTPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 87C099F514D4FA4E00B2B23D /* TTTPlayer.m */; };
+		87C099F714D4FA4F00B2B23D /* TTTPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 87C099F514D4FA4E00B2B23D /* TTTPlayer.m */; };
+		87C099FA14D4FA8A00B2B23D /* TTTGame.m in Sources */ = {isa = PBXBuildFile; fileRef = 87C099F914D4FA8A00B2B23D /* TTTGame.m */; };
+		87C099FB14D4FA8A00B2B23D /* TTTGame.m in Sources */ = {isa = PBXBuildFile; fileRef = 87C099F914D4FA8A00B2B23D /* TTTGame.m */; };
 		87E6BCE914D4EBE000D567C6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87E6BCE814D4EBE000D567C6 /* UIKit.framework */; };
 		87E6BCEB14D4EBE000D567C6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87E6BCEA14D4EBE000D567C6 /* Foundation.framework */; };
 		87E6BCED14D4EBE000D567C6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87E6BCEC14D4EBE000D567C6 /* CoreGraphics.framework */; };
 		87E6BCF314D4EBE000D567C6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 87E6BCF114D4EBE000D567C6 /* InfoPlist.strings */; };
 		87E6BCF514D4EBE000D567C6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 87E6BCF414D4EBE000D567C6 /* main.m */; };
 		87E6BCF914D4EBE100D567C6 /* TTTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 87E6BCF814D4EBE100D567C6 /* TTTAppDelegate.m */; };
-		87E6BCFC14D4EBE100D567C6 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 87E6BCFA14D4EBE100D567C6 /* MainStoryboard.storyboard */; };
-		87E6BCFF14D4EBE100D567C6 /* TTTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 87E6BCFE14D4EBE100D567C6 /* TTTViewController.m */; };
+		87E6BCFC14D4EBE100D567C6 /* GameBoard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 87E6BCFA14D4EBE100D567C6 /* GameBoard.storyboard */; };
+		87E6BCFF14D4EBE100D567C6 /* TTTGameBoardController.m in Sources */ = {isa = PBXBuildFile; fileRef = 87E6BCFE14D4EBE100D567C6 /* TTTGameBoardController.m */; };
 		87E6BD0714D4EBE100D567C6 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87E6BD0614D4EBE100D567C6 /* SenTestingKit.framework */; };
 		87E6BD0814D4EBE100D567C6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87E6BCE814D4EBE000D567C6 /* UIKit.framework */; };
 		87E6BD0914D4EBE100D567C6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87E6BCEA14D4EBE000D567C6 /* Foundation.framework */; };
@@ -33,24 +39,30 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		87C099F014D4FA2E00B2B23D /* TTTBoard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTTBoard.h; sourceTree = "<group>"; };
+		87C099F114D4FA2E00B2B23D /* TTTBoard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTTBoard.m; sourceTree = "<group>"; };
+		87C099F414D4FA4E00B2B23D /* TTTPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTTPlayer.h; sourceTree = "<group>"; };
+		87C099F514D4FA4E00B2B23D /* TTTPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTTPlayer.m; sourceTree = "<group>"; };
+		87C099F814D4FA8A00B2B23D /* TTTGame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTTGame.h; sourceTree = "<group>"; };
+		87C099F914D4FA8A00B2B23D /* TTTGame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTTGame.m; sourceTree = "<group>"; };
 		87E6BCE414D4EBE000D567C6 /* iOS Tic-Tac-Toe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS Tic-Tac-Toe.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		87E6BCE814D4EBE000D567C6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		87E6BCEA14D4EBE000D567C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		87E6BCEC14D4EBE000D567C6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		87E6BCF014D4EBE000D567C6 /* iOS Tic-Tac-Toe-Info.plist */ = {isa = PBXFileReference; path = "iOS Tic-Tac-Toe-Info.plist"; sourceTree = "<group>"; };
+		87E6BCF014D4EBE000D567C6 /* iOS Tic-Tac-Toe-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iOS Tic-Tac-Toe-Info.plist"; sourceTree = "<group>"; };
 		87E6BCF214D4EBE000D567C6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		87E6BCF414D4EBE000D567C6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		87E6BCF614D4EBE000D567C6 /* iOS Tic-Tac-Toe-Prefix.pch */ = {isa = PBXFileReference; path = "iOS Tic-Tac-Toe-Prefix.pch"; sourceTree = "<group>"; };
-		87E6BCF714D4EBE000D567C6 /* TTTAppDelegate.h */ = {isa = PBXFileReference; path = TTTAppDelegate.h; sourceTree = "<group>"; };
+		87E6BCF614D4EBE000D567C6 /* iOS Tic-Tac-Toe-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iOS Tic-Tac-Toe-Prefix.pch"; sourceTree = "<group>"; };
+		87E6BCF714D4EBE000D567C6 /* TTTAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TTTAppDelegate.h; sourceTree = "<group>"; };
 		87E6BCF814D4EBE100D567C6 /* TTTAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TTTAppDelegate.m; sourceTree = "<group>"; };
-		87E6BCFB14D4EBE100D567C6 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		87E6BCFD14D4EBE100D567C6 /* TTTViewController.h */ = {isa = PBXFileReference; path = TTTViewController.h; sourceTree = "<group>"; };
-		87E6BCFE14D4EBE100D567C6 /* TTTViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TTTViewController.m; sourceTree = "<group>"; };
+		87E6BCFB14D4EBE100D567C6 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/GameBoard.storyboard; sourceTree = "<group>"; };
+		87E6BCFD14D4EBE100D567C6 /* TTTGameBoardController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TTTGameBoardController.h; sourceTree = "<group>"; };
+		87E6BCFE14D4EBE100D567C6 /* TTTGameBoardController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TTTGameBoardController.m; sourceTree = "<group>"; };
 		87E6BD0514D4EBE100D567C6 /* iOS Tic-Tac-ToeTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS Tic-Tac-ToeTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		87E6BD0614D4EBE100D567C6 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		87E6BD0E14D4EBE100D567C6 /* iOS Tic-Tac-ToeTests-Info.plist */ = {isa = PBXFileReference; path = "iOS Tic-Tac-ToeTests-Info.plist"; sourceTree = "<group>"; };
+		87E6BD0E14D4EBE100D567C6 /* iOS Tic-Tac-ToeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iOS Tic-Tac-ToeTests-Info.plist"; sourceTree = "<group>"; };
 		87E6BD1014D4EBE100D567C6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		87E6BD1214D4EBE100D567C6 /* iOS_Tic_Tac_ToeTests.h */ = {isa = PBXFileReference; path = iOS_Tic_Tac_ToeTests.h; sourceTree = "<group>"; };
+		87E6BD1214D4EBE100D567C6 /* iOS_Tic_Tac_ToeTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iOS_Tic_Tac_ToeTests.h; sourceTree = "<group>"; };
 		87E6BD1314D4EBE100D567C6 /* iOS_Tic_Tac_ToeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOS_Tic_Tac_ToeTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -78,6 +90,36 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		87C099EB14D4F0BE00B2B23D /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				87E6BCFD14D4EBE100D567C6 /* TTTGameBoardController.h */,
+				87E6BCFE14D4EBE100D567C6 /* TTTGameBoardController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		87C099EC14D4F17200B2B23D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				87C099F014D4FA2E00B2B23D /* TTTBoard.h */,
+				87C099F114D4FA2E00B2B23D /* TTTBoard.m */,
+				87C099F414D4FA4E00B2B23D /* TTTPlayer.h */,
+				87C099F514D4FA4E00B2B23D /* TTTPlayer.m */,
+				87C099F814D4FA8A00B2B23D /* TTTGame.h */,
+				87C099F914D4FA8A00B2B23D /* TTTGame.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		87C099FC14D4FCDC00B2B23D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				87E6BCFA14D4EBE100D567C6 /* GameBoard.storyboard */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
 		87E6BCD914D4EBE000D567C6 = {
 			isa = PBXGroup;
 			children = (
@@ -113,9 +155,9 @@
 			children = (
 				87E6BCF714D4EBE000D567C6 /* TTTAppDelegate.h */,
 				87E6BCF814D4EBE100D567C6 /* TTTAppDelegate.m */,
-				87E6BCFA14D4EBE100D567C6 /* MainStoryboard.storyboard */,
-				87E6BCFD14D4EBE100D567C6 /* TTTViewController.h */,
-				87E6BCFE14D4EBE100D567C6 /* TTTViewController.m */,
+				87C099EC14D4F17200B2B23D /* Models */,
+				87C099FC14D4FCDC00B2B23D /* Views */,
+				87C099EB14D4F0BE00B2B23D /* Controllers */,
 				87E6BCEF14D4EBE000D567C6 /* Supporting Files */,
 			);
 			path = "iOS Tic-Tac-Toe";
@@ -223,7 +265,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				87E6BCF314D4EBE000D567C6 /* InfoPlist.strings in Resources */,
-				87E6BCFC14D4EBE100D567C6 /* MainStoryboard.storyboard in Resources */,
+				87E6BCFC14D4EBE100D567C6 /* GameBoard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,7 +302,10 @@
 			files = (
 				87E6BCF514D4EBE000D567C6 /* main.m in Sources */,
 				87E6BCF914D4EBE100D567C6 /* TTTAppDelegate.m in Sources */,
-				87E6BCFF14D4EBE100D567C6 /* TTTViewController.m in Sources */,
+				87E6BCFF14D4EBE100D567C6 /* TTTGameBoardController.m in Sources */,
+				87C099F214D4FA2E00B2B23D /* TTTBoard.m in Sources */,
+				87C099F614D4FA4F00B2B23D /* TTTPlayer.m in Sources */,
+				87C099FA14D4FA8A00B2B23D /* TTTGame.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,6 +314,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				87E6BD1414D4EBE100D567C6 /* iOS_Tic_Tac_ToeTests.m in Sources */,
+				87C099F314D4FA2E00B2B23D /* TTTBoard.m in Sources */,
+				87C099F714D4FA4F00B2B23D /* TTTPlayer.m in Sources */,
+				87C099FB14D4FA8A00B2B23D /* TTTGame.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,12 +339,12 @@
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-		87E6BCFA14D4EBE100D567C6 /* MainStoryboard.storyboard */ = {
+		87E6BCFA14D4EBE100D567C6 /* GameBoard.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				87E6BCFB14D4EBE100D567C6 /* en */,
 			);
-			name = MainStoryboard.storyboard;
+			name = GameBoard.storyboard;
 			sourceTree = "<group>";
 		};
 		87E6BD0F14D4EBE100D567C6 /* InfoPlist.strings */ = {
@@ -430,6 +478,7 @@
 				87E6BD1914D4EBE100D567C6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		87E6BD1A14D4EBE100D567C6 /* Build configuration list for PBXNativeTarget "iOS Tic-Tac-ToeTests" */ = {
 			isa = XCConfigurationList;
@@ -438,6 +487,7 @@
 				87E6BD1C14D4EBE100D567C6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
